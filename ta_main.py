@@ -9,14 +9,6 @@ parser.add_argument("--email")
 parser.add_argument("--password")
 options = parser.parse_args()
 
-#print(args)
-#print('Введите емейл:')
-#email = input()
-#print('Введите пароль:')
-#password = input()
-
-#email = 'test.box706@mail.ru'
-#password = '003Solver'
 email = options.email
 state = options.check_box
 password = options.password
